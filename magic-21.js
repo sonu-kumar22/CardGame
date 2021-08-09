@@ -176,12 +176,12 @@ function showCard(card) {
 }
 
 function setInProgressContent() {
-  let concatenedtGrid = `<div class=row>
+  let concatenedtGrid = `<div class="row deck-container">
                           <div class="col-4">
                           ${setContentDeckOne()}
                             <div class="row">
                               <div class="col-12">
-                                <button class="btn btn-choose" onclick="choose(1)">Here</button>
+                                <button class="btn btn-choose" onclick="choose(1)">My Card is Here</button>
                               </div>
                             </div>
                           </div>
@@ -189,7 +189,7 @@ function setInProgressContent() {
                           ${setContentDeckTwo()}
                             <div class="row">
                               <div class="col-12">
-                                <button class="btn btn-choose" onclick="choose(2)">Here</button>
+                                <button class="btn btn-choose" onclick="choose(2)">My Card is Here</button>
                               </div>
                             </div>
                           </div>
@@ -197,7 +197,7 @@ function setInProgressContent() {
                           ${setContentDeckThree()}
                             <div class="row">
                               <div class="col-12">
-                                <button class="btn btn-choose" onclick="choose(3)">Here</button>
+                                <button class="btn btn-choose" onclick="choose(3)">My Card is Here</button>
                               </div>
                             </div>
                           </div>
@@ -305,6 +305,6 @@ function setContentDeckThree() {
   return deckThreeContent;
 }
 
-function neWGame(){
+function neWGame() {
   window.location.reload();
 }

@@ -45,7 +45,7 @@
   font-size: 30px;
   font-weight: 900;
   cursor: pointer;
-  background-color: #435560;
+  background-color: #293035;
   color: #c8c6a7;
   transition: all 0.4s;
   transform: translateY(2px);
@@ -62,8 +62,8 @@
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
 
-.btn-choose{
-  margin-top: 10px;
+.btn-choose {
+  margin-top: 20px;
 }
 
 .col-2:nth-child(1) .slide-h.card {
@@ -120,6 +120,8 @@
 }
 
 .game-landing {
+  height: 100%;
+  width: 100%;
   transition: all 0.5s ease-in 1s;
   opacity: 1;
   visibility: visible;
@@ -137,7 +139,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  transition: all 2s ease-in;
+  height: 100%;
+  transition: all 1s ease-in;
 }
 
 .show-s.game-in-progress {
@@ -150,11 +153,15 @@
   visibility: hidden;
 }
 
+.deck-container{
+  height:100%;
+}
+
 .guessed-card {
   opacity: 0;
   visibility: hidden;
   width: 100%;
-  transition: all 1s ease-in 1s;
+  transition: all 2s ease-in 1s;
 }
 
 .show-s.guessed-card {
@@ -179,8 +186,7 @@
   font-weight: 500;
 }
 
-.new-game{
+.new-game {
   margin: 40px auto;
-
 }
 
